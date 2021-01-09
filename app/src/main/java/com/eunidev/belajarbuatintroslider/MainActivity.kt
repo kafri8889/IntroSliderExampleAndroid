@@ -1,12 +1,14 @@
 package com.eunidev.belajarbuatintroslider
 
 import android.content.Intent
-import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.os.CountDownTimer
 import android.util.Log
 import android.widget.Button
+import android.widget.TextView
 import android.widget.Toast
+import androidx.appcompat.app.AppCompatActivity
+import androidx.appcompat.app.AppCompatDelegate
 
 class MainActivity : AppCompatActivity() {
 
@@ -17,7 +19,15 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
+        AppCompatDelegate.setDefaultNightMode(AppCompatDelegate.MODE_NIGHT_NO)
+
         preferencesManager = PreferencesManager(applicationContext)
+
+        val autDes = "Author        : EuniDev\n " +
+                     "Author IG     : @re.vel_\n" +
+                     "Author Github : kafri8889\n" +
+                     "Source Code   : https://github.com/kafri8889/IntroSliderExampleAndroid"
+        findViewById<TextView>(R.id.textViewDes).text = autDes
 
         findViewById<Button>(R.id.buttonBackToWelcomeScreen_MainActivity).setOnClickListener {
             preferencesManager.setFirstLaunchApp(true)

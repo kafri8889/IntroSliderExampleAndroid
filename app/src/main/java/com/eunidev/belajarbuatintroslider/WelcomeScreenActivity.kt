@@ -2,14 +2,14 @@ package com.eunidev.belajarbuatintroslider
 
 import android.content.Intent
 import android.os.Build
-import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.text.Html
 import android.view.View
 import android.widget.Button
 import android.widget.LinearLayout
 import android.widget.TextView
-import androidx.annotation.RequiresApi
+import androidx.appcompat.app.AppCompatActivity
+import androidx.appcompat.app.AppCompatDelegate
 import androidx.viewpager.widget.ViewPager
 
 class WelcomeScreenActivity : AppCompatActivity() {
@@ -25,6 +25,7 @@ class WelcomeScreenActivity : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
+        AppCompatDelegate.setDefaultNightMode(AppCompatDelegate.MODE_NIGHT_NO)
         preferencesManager = PreferencesManager(applicationContext)
         if (!preferencesManager.isFirstLaunchApp()) {
             toMainActivity()
