@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">Belajar Buat IntroSlider</string>
+    <string name="lanjut">LANJUT</string>
+    <string name="lewati">LEWATI</string>
+    <string name="mulai">MULAI</string>
+
+    <!-- Java -->
+    <string name="java_title_slider">Java</string>
+    <string name="java_description_slider">Learn Java Language in Java :v</string>
+
+    <!-- C++ -->
+    <string name="cpp_title_slider">C++</string>
+    <string name="cpp_description_slider">Learn C++ Language Without Learn A++ and B++ Language :v</string>
+
+    <!-- Python -->
+    <string name="python_title_slider">Python</string>
+    <string name="python_description_slider">Learn Python Language with Python Snake :v</string>
+
+    <!-- Swift -->
+    <string name="swift_title_slider">Swift</string>
+    <string name="swift_description_slider">Burung Walet :v</string>
+
+</resources>

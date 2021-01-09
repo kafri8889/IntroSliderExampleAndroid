@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <!-- Background Screen Slider -->
+    <color name="slider_bg_slider1">#316DE1</color>
+    <color name="slider_bg_slider2">#4FC3A8</color>
+    <color name="slider_bg_slider3">#A54CC6</color>
+    <color name="slider_bg_slider4">#B5CF3E</color>
+
+    <!-- Inactive Dot -->
+    <color name="dot_inactive_in_slider1">#FFFFF0</color>
+    <color name="dot_inactive_in_slider2">#FFFFF0</color>
+    <color name="dot_inactive_in_slider3">#FFFFF0</color>
+    <color name="dot_inactive_in_slider4">#FFFFF0</color>
+
+    <!-- Active Dot -->
+    <color name="dot_active_in_slider1">#A9A9A9</color>
+    <color name="dot_active_in_slider2">#A9A9A9</color>
+    <color name="dot_active_in_slider3">#A9A9A9</color>
+    <color name="dot_active_in_slider4">#A9A9A9</color>
+
+    <array name="array_dot_active">
+        <item>@color/dot_active_in_slider1</item>
+        <item>@color/dot_active_in_slider2</item>
+        <item>@color/dot_active_in_slider3</item>
+        <item>@color/dot_active_in_slider4</item>
+    </array>
+
+    <array name="array_dot_inactive">
+        <item>@color/dot_inactive_in_slider1</item>
+        <item>@color/dot_inactive_in_slider2</item>
+        <item>@color/dot_inactive_in_slider3</item>
+        <item>@color/dot_inactive_in_slider4</item>
+    </array>
+</resources>
