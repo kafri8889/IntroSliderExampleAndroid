@@ -1,1 +1,1 @@
-Example IntroSlider
+Example IntroSlider with kotlin
